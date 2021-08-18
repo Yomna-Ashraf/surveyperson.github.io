@@ -109,6 +109,10 @@ input[type='radio']:checked:after {
     text-align: center;
 }
 @media only screen and (max-width: 510px) {
+    .radio-con{
+        margin-top:10px;
+        margin-bottom:10px
+    }
     .main{
         width:100%;
     }
@@ -222,4 +226,12 @@ footer{
 .type-res{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.radio-con > .col{
+    font-size: 1.1rem;
+    color: rgb(116, 114, 114);
+}
+.col2 > .col{
+    color:white
 }
