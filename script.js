@@ -1,33 +1,4 @@
-///////////////NavBar/////////////////
-/*const nav = document.getElementById("responsive-nav");
-const navBtn = document.getElementById("responsive-btn");
-console.log(nav);
-console.log(navBtn)
-navBtn.addEventListener("click",function(){
-  if (nav.className === "right-nav") {
-    nav.className += "min";
-  } else {
-    nav.className = "right-nav";
-  }
-  console.log("fuck you")
-})
-const mediaQuery = window.matchMedia('(min-width: 800px)')
 
-function handleTabletChange(e) {
-  // Check if the media query is true
-  if (e.matches) {
-    // Then log the following message to the console
-    nav.className = "right-nav";
-
-  }
-  /*else{
-    menu.style.display = "none"
-  }
-}
-
-// Register event listener
-mediaQuery.addListener(handleTabletChange)
-handleTabletChange(mediaQuery)*/
 ///////////////////////////////////////////////////
 const lang = document.querySelector("#lang")
 const math = document.querySelector("#math")
