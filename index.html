@@ -1,691 +1,650 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang = "ar">
 <head>
-    <title>تعرف علي موهبتك</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-    <div class="main-container">
-        <header>
-            <div class="main-style">
-                <h1>تحديد نوع الموهبة</h1>
-                <h2>قياس الذكاءات المتعددة</h2>                
-            </div>
+    <header id="1">
+		<div class="main-head" >
+			<div class="site-title">
+				<h1>دليل الموهوبين</h1>
+				<p class="subtitle">اختبر نفسك بدقة وتعرف علي موهبتك</p>
+			</div>
+			<!--<nav>
+				<ul>
+					<li><a href="#"class="current" id="link-h">الصفحة الرئيسية</a></li>
+					<li><a href="#" id="link-h">اختبار المواهب</li>
+					<li class="li3"><a href="#" id="link-h">انواع الموهوبين</a></li>
+				</ul>
+			</nav>-->
+		</div>	
+	</header>
+    <!-------------------MAIN------------------>
+    <div class="main">
 
-        </header>  
-        <div class="main">
-            <div class="type-con" id="lang">
-                <div class="main-h hid-div"><h3 class="main-style">اللفظي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                            
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">الكتب مهمة جدا بالنسبة لي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio1" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio1" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio1" id=rd value="3"></div>                             
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">انا استطيع ان افهم سماع الكلمات في ذهني قبل ان اكتبها او اقرئها</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio2" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio2" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio2" id=rd value="3"></div>                             
-                        </div>
+
+        <div class="type-con" id="lang">
+
+            <div class="col-container main-style">
+     
+                <div class="con-q">
+                    <div class="col quist">الكتب مهمة جدا بالنسبة لي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio1" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio1" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio1" id=rd value="3"></div>                             
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">استمتع بتسلية نفسي بالعاب القوافي و الكلمات غير المنطقية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio3" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio3" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio3" id=rd value="3"></div>                              
-                        </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">انا استطيع ان افهم سماع الكلمات في ذهني قبل ان اكتبها او اقرئها</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio2" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio2" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio2" id=rd value="3"></div>                             
                     </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">يضطر بعض الناس لسؤالي حول بعض الكلمات ومعانيها في كتاباتي و حديثيم</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio4" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio4" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio4" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اللغة الانجليزية و الدراسات و التاريخ كانت اسهل المواد عندي عن العلوم والرياضيات</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio5" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio5" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio5" id=rd value="3"></div>                              
-                        </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">استمتع بتسلية نفسي بالعاب القوافي و الكلمات غير المنطقية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio3" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio3" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio3" id=rd value="3"></div>                              
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">عندما اقود سيارتي استمتع بمشاهدة الاعلانات عن المناظر الطبيعيه</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio6" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio6" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio6" id=rd value="3"></div>                              
-                        </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">يضطر بعض الناس لسؤالي حول بعض الكلمات ومعانيها في كتاباتي و حديثي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio4" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio4" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio4" id=rd value="3"></div>                              
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">في حديثي اكثر ذكر المراجع التي سمعتها او قرأت عنها</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio7" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio7" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio7" id=rd value="3"></div>                              
-                        </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اللغة الانجليزية و الدراسات و التاريخ كانت اسهل المواد عندي عن العلوم والرياضيات</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio5" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio5" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio5" id=rd value="3"></div>                              
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">كتب حديثا اثار إنتباه الاخرين وجعلني افتخر</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio8" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio8" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio8" id=rd value="3"></div>                             
-                        </div>
-                    </div>                    
-                    <div class="main-h count"> 
-                        <button class="submit-btn" id="lang-btn">احسب نقاطك</button>
-                        <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="lang-tot">0</p></div>
-                    </div>                                 
-                </div>                
-            </div>
-            <div class="type-con" id="math">
-                <div class="main-h hid-div"><h3 class="main-style">الرياضي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                         
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">انا استطيع الحساب في ذهني</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio9" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio9" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio9" id=rd value="3"></div>                               
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">الرياضيات والعلوم كانت من موادي المفضلة في الدراسة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio10" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio10" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio10" id=rd value="3"></div>                              
-                        </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">عندما اقود سيارتي استمتع بمشاهدة الاعلانات عن المناظر الطبيعيه</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio6" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio6" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio6" id=rd value="3"></div>                              
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">انا احيانا افكر في اشياء مجرده ومفاهيم تخيلية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio11" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio11" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio11" id=rd value="3"></div>                              
-                        </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">في حديثي اكثر ذكر المراجع التي سمعتها او قرأت عنها</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio7" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio7" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio7" id=rd value="3"></div>                              
                     </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">انا اكتشف اخطاء الناس في الافعال والاقوال</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio12" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio12" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio12" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اشعر بالراحة عندما تقاس الاشياء وتحلل وتعطى كميات</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio13" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio13" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio13" id=rd value="3"></div>                              
-                        </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">كتبت حديثا اثار انتباه الاخرين وجعلني افتخر</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio8" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio8" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio8" id=rd value="3"></div>                             
                     </div>
-                    <div class="con-q">
-                        <div class="col quist">يسرني الانشغال بالالعاب الفكرية وحل المشكلات المنطقية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio14" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio14" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio14" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">-احب طرح سؤال-ماذالو؟</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio15" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio15" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio15" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اعتقد لكل شئ تفسيراته المنطقية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio16" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio16" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio16" id=rd value="3"></div>                               
-                        </div>
-                    </div>                                 
-                </div>  
+                </div>                    
                 <div class="main-h count"> 
-                    <button class="submit-btn" id="math-btn">احسب نقاطك</button>
-                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="math-tot">0</p></div>
-                </div>         
-            </div>
-            <div class="type-con" id="visual">
-                <div class="main-h hid-div"><h3 class="main-style">بصري</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                         
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">انا عادة ارى صورا واضحة عندما اغلق عيني</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio17" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio17" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio17" id=rd value="3"></div>                             
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">انا حساس للالوان</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio18" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio18" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio18" id=rd value="3"></div>                             
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اتمتع كثيرا بلعب الصور المتقطعة والمتاهات</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio19" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio19" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio19" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">ارى احلاما تقترب من الواقع</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio20" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio20" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio20" id=rd value="3"></div>                               
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">استطيع ان اجد طريقي في مناطق غير مالوفة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio21" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio21" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio21" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">انا احب الرسم</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio22" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio22" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio22" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">الهندسه عندي اسهل من الجبر</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio23" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio23" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio23" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">يريحني ان افكر كيف تبدو الاشياء عند النظر اليها من الاعلي </div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio24" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio24" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio24" id=rd value="3"></div>                              
-                        </div>
-                    </div>                                 
-                </div>  
-                <div class="main-h count"> 
-                    <button class="submit-btn" id=visual-btn>احسب نقاطك</button>
-                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="visual-tot">0</p></div>
-                </div>         
-            </div>
-            <div class="type-con" id="body">
-                <div class="main-h hid-div"><h3 class="main-style">الجسدي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                           
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">في الوضع العادي اشغل نفسي بنشاط رياضي واحد علي الاقل</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio25" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio25" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio25" id=rd value="3"></div>                               
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اجد صعوبة في البقاء جالسا فترة طويلة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio26" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio26" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio26" id=rd value="3"></div>                               
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">افكاري المفضلة تاتيني عنما امارس نشاطا بدنيا</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio27" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio27" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio27" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">عادة استخدم اشارات اليد والحركات البصرية عند الحديث</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio28" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio28" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio28" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">احتاج الي لمس الاشياء للتعرف عليها</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio29" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio29" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio29" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">انا احب عمل الانشطة اليدوية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio30" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio30" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio30" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اتمتع بممارسة التسلية المتهورة كالقايدة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio31" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio31" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio31" id=rd value="3"></div>                             
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">ارغب في اكتساب مهارات جديده اكثر من القراءة والعاب الفيديو</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio32" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio32" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio32" id=rd value="3"></div>                              
-                        </div>
-                    </div>                    
-                    <div class="main-h count"> 
-                        <button class="submit-btn" id="body-btn">احسب نقاطك</button>
-                        <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="body-tot">0</p></div>
-                    </div>                                 
-                </div>                
-            </div>
-            <div class="type-con" id="nature">
-                <div class="main-h hid-div"><h3 class="main-style">الطبيعي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                          
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">احب الحيوانات بكل انواعها</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio33" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio33" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio33" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اتمتع بالصيد والزراعة والطبخ</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio34" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio34" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio34" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اقوم بجمع صخور واصداف وحشرات</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio35" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio35" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio35" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">اتفقد دائما تقارير المناخ لتهيئة الظروف</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio36" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio36" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio36" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">احب تصنيف الاشياء في مجموعات</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio37" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio37" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio37" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">احب الطبيعة والتواجد خارجا</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio38" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio38" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio38" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">استخدم كاميرا لتسجيل ما اشاهدة </div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio39" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio39" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio39" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">الاحظ السمات الاساسية للكائنات بشكل عفوي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio40" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio40" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio40" id=rd value="3"></div>                               
-                        </div>
-                    </div>                                 
-                </div>  
-                <div class="main-h count"> 
-                    <button class="submit-btn" id="nature-btn">احسب نقاطك</button>
-                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="nature-tot">0</p></div>
-                </div>         
-            </div>
-            <div class="type-con" id="music">
-                <div class="main-h hid-div"><h3 class="main-style">الموسيقي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                           
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">انا املك صوتا جميلا</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio41" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio41" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio41" id=rd value="3"></div>                               
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اجد نفسي تتردد في ذهني الحان معينة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio42" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio42" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio42" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اخصص وقتا لسماع قطعه موسيقية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio43" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio43" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio43" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">استطيع ان اعزف علي بعض الالات الموسيقية</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio44" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio44" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio44" id=rd value="3"></div>                             
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">انا اعرف النوتة للكثير من الاغاني</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio45" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio45" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio45" id=rd value="3"></div>                             
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">حياتي تكون تعيسة ان لم استمع للموسيقى</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio46" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio46" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio46" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اذا استمعت لقطعه موسيقيه مره او اكثر استطيع ترديدها </div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio47" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio47" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio47" id=rd value="3"></div>                            
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">غالبا ما اردد بعض الالحان الموسيقية في عملي </div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio48" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio48" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio48" id=rd value="3"></div>                              
-                        </div>
-                    </div>                                 
-                </div>  
-                <div class="main-h count"> 
-                    <button class="submit-btn" id=music-btn>احسب نقاطك</button>
-                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="music-tot">0</p></div>
-                </div>         
-            </div>  
-            <div class="type-con" id="social">
-                <div class="main-h hid-div"><h3 class="main-style">اجتماعي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                        
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">ياتي الاصدقاء لاقدم لهم النصيحة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio49" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio49" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio49" id=rd value="3"></div>                             
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">امتلك ثلاثة اصدقاء مقربين علي الاقل</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio50" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio50" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio50" id=rd value="3"></div>                               
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">انا افضل التسلية الجماعية كلعبة مونوبولي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio51" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio51" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio51" id=rd value="3"></div>                             
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">يسعدني تعليم الاشخاص ما اعرفه في عملي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio52" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio52" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio52" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">اعتبر نفسي قياديا او هذا ما يراه الاخرون</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio53" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio53" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio53" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">افضل قضاء امسيتي في حفل جماعي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio54" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio54" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio54" id=rd value="3"></div>                             
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">عندما تواجهني مشكلة ابحث عن شخص ليساعدني بدلا عن حلها بنفسي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio55" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio55" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio55" id=rd value="3"></div>                            
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">احب الانخراط في نشاطات جماعية متعلقه بعملي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio56" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio56" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio56" id=rd value="3"></div>                              
-                        </div>
-                    </div>                    
-                    <div class="main-h count"> 
-                        <button class="submit-btn" id="social-btn">احسب نقاطك</button>
-                        <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="social-tot">0</p></div>
-                    </div>                                 
-                </div>                
-            </div>
-            <div class="type-con" id="person">
-                <div class="main-h hid-div"><h3 class="main-style">شخصي</h3></div>
-                <div class="col-container main-style">
-                    <div class="con-q">
-                        <div class="col quist colq" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>مقدار الملائمة</div>
-                        <div class="radio-con col2" style='background-color: rgb(42, 100, 59); color:white;margin-top: 15px;'>
-                            <div class="col c1" style="padding-left:4px">لا ينطبق علي</div>
-                            <div class="col c2"style="padding-left:4px" >ينطبق الي حد ما</div>
-                            <div class="col c3" style="padding-left:4px">ينطبق تماما</div>                            
-                        </div>
-                    </div>                       
-                    <div class="con-q">
-                        <div class="col quist">انا عادة اقضي وقتي في التفكير في امور الحياة الهامة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio57" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio57" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio57" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">لدي اهداف افكر بها باستمرار</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio58" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio58" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio58" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">لدي اهتمامات خاصة احتفظ بها لنفسي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio59" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio59" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio59" id=rd value="3"></div>                               
-                        </div>
-                    </div>
-                      
-                    <div class="con-q">
-                        <div class="col quist">لدي صور واقعية عن مواطن قوتي وضعفي</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio60" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio60" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio60" id=rd value="3"></div>                              
-                        </div>
-                    </div> 
-                    <div class="con-q">
-                        <div class="col quist">احتفظ بمذكرات ادون فيها حياتي الخاصة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio61" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio61" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio61" id=rd value="3"></div>                               
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">انا صاحب عمل حر او  افكر في انشاء مشروع حر</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio62" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio62" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio62" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">افضل في قضاء اجازتي وحدي </div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio63" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio63" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio63" id=rd value="3"></div>                              
-                        </div>
-                    </div>
-                    <div class="con-q">
-                        <div class="col quist">اعتبر نفسي قوي الارادة ذو عقلية مستقلة</div>
-                        <div class="radio-con">
-                            <div class="col c1">لا ينطبق<input type="radio" name="radio64" id=rd value="1"></div>
-                            <div class="col c2">ينطبق تقريبا<input type="radio" name="radio64" id=rd value="2"></div>
-                            <div class="col c3">ينطبق تماما<input type="radio" name="radio64" id=rd value="3"></div>                              
-                        </div>
-                    </div>                                 
-                </div>  
-                <div class="main-h count"> 
-                    <button class="submit-btn" id="person-btn">احسب نقاطك</button>
-                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="person-tot">0</p></div>
-                </div>         
-            </div>
-                   
-            <div class= "type-res"style="width: 100%;text-align: center;">
-                <button class="submit-btn" id="result-btn">تعرف علي موهبتك</button>
-                <p class="final-result" id="result"></p>
-                <p class="final-result" id ="result-para"></p>
-                <p class="final-result" id = "sub"></p>
-            </div>
-      
+                    <button class="submit-btn" id="lang-btn">الأسئلة التالية</button>
+                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="lang-tot">0</p></div>
+                </div>                                 
+            </div>                
         </div>
-        <footer>إستطلاع رأي و إختبارات شخصية</footer>    
-    </div>                      
+        <div class="type-con" id="math">
+            <div class="col-container main-style">
+                    
+                <div class="con-q">
+                    <div class="col quist">انا استطيع الحساب في ذهني</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio9" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio9" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio9" id=rd value="3"></div>                               
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">الرياضيات والعلوم كانت من موادي المفضلة في الدراسة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio10" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio10" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio10" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">انا احيانا افكر في اشياء مجرده ومفاهيم تخيلية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio11" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio11" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio11" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">انا اكتشف اخطاء الناس في الافعال والاقوال</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio12" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio12" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio12" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اشعر بالراحة عندما تقاس الاشياء وتحلل وتعطى كميات</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio13" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio13" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio13" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">يسرني الانشغال بالالعاب الفكرية وحل المشكلات المنطقية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio14" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio14" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio14" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">-احب طرح سؤال-ماذالو؟</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio15" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio15" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio15" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اعتقد لكل شئ تفسيراته المنطقية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio16" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio16" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio16" id=rd value="3"></div>                               
+                    </div>
+                </div>                                 
+            </div>  
+            <div class="main-h count"> 
+                <button class="submit-btn" id="math-btn">الأسئلة التالية</button>
+                <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="math-tot">0</p></div>
+            </div>         
+        </div>
+        <div class="type-con" id="visual">
+            <div class="col-container main-style">
+                      
+                <div class="con-q">
+                    <div class="col quist">انا عادة ارى صورا واضحة عندما اغلق عيني</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio17" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio17" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio17" id=rd value="3"></div>                             
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">انا حساس للالوان</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio18" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio18" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio18" id=rd value="3"></div>                             
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اتمتع كثيرا بلعب الصور المتقطعة والمتاهات</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio19" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio19" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio19" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">ارى احلاما تقترب من الواقع</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio20" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio20" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio20" id=rd value="3"></div>                               
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">استطيع ان اجد طريقي في مناطق غير مالوفة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio21" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio21" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio21" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">انا احب الرسم</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio22" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio22" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio22" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">الهندسه عندي اسهل من الجبر</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio23" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio23" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio23" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">يريحني ان افكر كيف تبدو الاشياء عند النظر اليها من الاعلي </div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio24" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio24" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio24" id=rd value="3"></div>                              
+                    </div>
+                </div>                                 
+            </div>  
+            <div class="main-h count"> 
+                <button class="submit-btn" id=visual-btn>الأسئلة التالية</button>
+                <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="visual-tot">0</p></div>
+            </div>         
+        </div>
+        <div class="type-con" id="body">
+            <div class="main-h hid-div"><h3 class="main-style">الجسدي</h3></div>
+            <div class="col-container main-style">
+                      
+                <div class="con-q">
+                    <div class="col quist">في الفضع العادي اشغل نفسي بنشاط رياضي واحد علي الاقل</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio25" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio25" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio25" id=rd value="3"></div>                               
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اجد صعوبة في البقاء جالسا فترة طويلة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio26" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio26" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio26" id=rd value="3"></div>                               
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">افكاري المفضلة تاتيني عنما امارس نشاطا بدنيا</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio27" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio27" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio27" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">عادة استخدم اشارات اليد والحركات البصرية عند الحديث</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio28" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio28" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio28" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">احتاج الي لمس الاشياء للتعرف عليها</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio29" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio29" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio29" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">انا احب عمل الانشطة اليدوية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio30" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio30" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio30" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اتمتع بممارسة التسلية المتهورة كالقايدة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio31" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio31" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio31" id=rd value="3"></div>                             
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">ارغب في اكتساب مهارات جديده اكثر من القراءة والعاب الفيديو</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio32" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio32" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio32" id=rd value="3"></div>                              
+                    </div>
+                </div>                    
+                <div class="main-h count"> 
+                    <button class="submit-btn" id="body-btn">الأسئلة التالية</button>
+                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="body-tot">0</p></div>
+                </div>                                 
+            </div>                
+        </div>
+        <div class="type-con" id="nature">
+            <div class="col-container main-style">
+                      
+                <div class="con-q">
+                    <div class="col quist">احب الحيوانات بكل انواعها</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio33" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio33" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio33" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اتمتع بالصيد والزراعة والطبخ</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio34" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio34" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio34" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اقوم بجمع صخور واصداف وحشرات</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio35" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio35" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio35" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">اتفقد دائما تقارير المناخ لتهيئة الظروف</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio36" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio36" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio36" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">احب تصنيف الاشياء في مجموعات</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio37" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio37" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio37" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">احب الطبيعة والتواجد خارجا</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio38" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio38" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio38" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">استخدم كاميرا لتسجيل ما اشاهدة </div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio39" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio39" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio39" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">الاحظ السمات الاساسية للكائنات بشكل عفوي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio40" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio40" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio40" id=rd value="3"></div>                               
+                    </div>
+                </div>                                 
+            </div>  
+            <div class="main-h count"> 
+                <button class="submit-btn" id="nature-btn">الأسئلة التالية</button>
+                <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="nature-tot">0</p></div>
+            </div>         
+        </div>
+        <div class="type-con" id="music">
+            <div class="col-container main-style">
+                       
+                <div class="con-q">
+                    <div class="col quist">انا املك صوتا جميلا</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio41" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio41" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio41" id=rd value="3"></div>                               
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اجد نفسي تتردد في ذهني الحان معينة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio42" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio42" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio42" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اخصص وقتا لسماع قطعه موسيقية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio43" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio43" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio43" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">استطيع ان اعزف علي بعض الالات الموسيقية</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio44" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio44" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio44" id=rd value="3"></div>                             
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">انا اعرف النوتة للكثير من الاغاني</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio45" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio45" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio45" id=rd value="3"></div>                             
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">حياتي تكون تعيسة ان لم استمع للموسيقى</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio46" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio46" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio46" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اذا استمعت لقطعه موسيقيه مره او اكثر استطيع ترديدها </div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio47" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio47" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio47" id=rd value="3"></div>                            
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">غالبا ما اردد بعض الالحان الموسيقية في عملي </div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio48" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio48" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio48" id=rd value="3"></div>                              
+                    </div>
+                </div>                                 
+            </div>  
+            <div class="main-h count"> 
+                <button class="submit-btn" id=music-btn>الأسئلة التالية</button>
+                <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="music-tot">0</p></div>
+            </div>         
+        </div>  
+        <div class="type-con" id="social">
+            <div class="col-container main-style">
+                      
+                <div class="con-q">
+                    <div class="col quist">ياتي الاصدقاء لاقدم لهم النصيحة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio49" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio49" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio49" id=rd value="3"></div>                             
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">امتلك ثلاثة اصدقاء مقربين علي الاقل</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio50" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio50" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio50" id=rd value="3"></div>                               
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">انا افضل التسلية الجماعية كلعبة مونوبولي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio51" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio51" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio51" id=rd value="3"></div>                             
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">يسعدني تعليم الاشخاص ما اعرفه في عملي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio52" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio52" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio52" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">اعتبر نفسي قياديا او هذا ما يراه الاخرون</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio53" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio53" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio53" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">افضل قضاء امسيتي في حفل جماعي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio54" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio54" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio54" id=rd value="3"></div>                             
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">عندما تواجهني مشكلة ابحث عن شخص ليساعدني بدلا عن حلها بنفسي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio55" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio55" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio55" id=rd value="3"></div>                            
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">احب الانخراط في نشاطات جماعية متعلقه بعملي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio56" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio56" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio56" id=rd value="3"></div>                              
+                    </div>
+                </div>                    
+                <div class="main-h count"> 
+                    <button class="submit-btn" id="social-btn">الأسئلة التالية</button>
+                    <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="social-tot">0</p></div>
+                </div>                                 
+            </div>                
+        </div>
+        <div class="type-con" id="person">
+
+            <div class="col-container main-style">
+                      
+                <div class="con-q">
+                    <div class="col quist">انا عادة اقضي وقتي في التفكير في امور الحياة الهامة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio57" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio57" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio57" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">لدي اهداف افكر بها باستمرار</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio58" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio58" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio58" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">لدي اهتمامات خاصة احتفظ بها لنفسي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio59" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio59" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio59" id=rd value="3"></div>                               
+                    </div>
+                </div>
+                  
+                <div class="con-q">
+                    <div class="col quist">لدي صور واقعية عن مواطن قوتي وضعفي</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio60" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio60" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio60" id=rd value="3"></div>                              
+                    </div>
+                </div> 
+                <div class="con-q">
+                    <div class="col quist">احتفظ بمذكرات ادون فيها حياتي الخاصة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio61" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio61" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio61" id=rd value="3"></div>                               
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">انا صاحب عمل حر او  افكر في انشاء مشروع حر</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio62" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio62" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio62" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">افضل في قضاء اجازتي وحدي </div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio63" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio63" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio63" id=rd value="3"></div>                              
+                    </div>
+                </div>
+                <div class="con-q">
+                    <div class="col quist">اعتبر نفسي قوي الارادة ذو عقلية مستقلة</div>
+                    <div class="radio-con">
+                        <div class="col c1"><span>لا ينطبق</span><input type="radio" name="radio64" id=rd value="1"></div>
+                        <div class="col c2"><span>ينطبق الي حد ما</span><input type="radio" name="radio64" id=rd value="2"></div>
+                        <div class="col c3"><span>ينطبق تماما</span><input type="radio" name="radio64" id=rd value="3"></div>                              
+                    </div>
+                </div>                                 
+            </div>  
+            <div class="main-h count"> 
+                <button class="submit-btn" id="person-btn">انتهيت</button>
+                <div class="total"><p class="tot">: المجموع </p><p class="show-total" id="person-tot">0</p></div>
+            </div>         
+        </div>
+        <div class="con-q" id="res-red">
+            <h1>لقد اتممت بنجاح جميع اسئلة اختبار المواهب </h1>
+            <h2>هل انت مستعد للتعرف علي النتائج</h2>
+            <button class="submit-btn" id="result-btn">تعرف علي موهبتك</button>   
+        </div>
+        
+        <div class= "type-res"style="width: 100%;text-align: center;">
+            <!--<button class="submit-btn" id="result-btn">تعرف علي موهبتك</button>-->
+            <p class="final-result1" id="result" style="color: white;"></p>
+            <p class="final-result" id ="result-para"></p>
+            <p class="final-result" id = "sub"></p>
+        </div>
+  
+    </div>   
+    <!-----------------End-Main---------------->
+    <footer>
+        <h5>دليل الموهوبين حقوق الطبع والنشر محفوظة</h5>
+        <!--p class="foot">Written and coded by <a href="#" class="linkedin">Yomna</a> copyright&#169; 2021</p>-->
+    </footer>
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
