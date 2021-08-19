@@ -1,3 +1,49 @@
+///////////////NavBar/////////////////
+/*const nav = document.getElementById("responsive-nav");
+const navBtn = document.getElementById("responsive-btn");
+console.log(nav);
+console.log(navBtn)
+navBtn.addEventListener("click",function(){
+  if (nav.className === "right-nav") {
+    nav.className += "min";
+  } else {
+    nav.className = "right-nav";
+  }
+  console.log("fuck you")
+})
+const mediaQuery = window.matchMedia('(min-width: 800px)')
+
+function handleTabletChange(e) {
+  // Check if the media query is true
+  if (e.matches) {
+    // Then log the following message to the console
+    nav.className = "right-nav";
+
+  }
+  /*else{
+    menu.style.display = "none"
+  }
+}
+
+// Register event listener
+mediaQuery.addListener(handleTabletChange)
+handleTabletChange(mediaQuery)*/
+///////////////////////////////////////////////////
+const lang = document.querySelector("#lang")
+const math = document.querySelector("#math")
+const visual = document.querySelector("#visual")
+const body = document.querySelector("#body")
+const nature = document.querySelector("#nature")
+const music = document.querySelector("#music")
+const social = document.querySelector("#social")
+const person = document.querySelector("#person")
+const typeres = document.querySelector(".type-res")
+const resultBtn = document.getElementById("result-btn")
+const ready = document.getElementById("res-red")
+console.log(typeres)
+
+let count1 = 1
+
 //////////////////
 let typeAndCount = {}
 //////////////////////
@@ -85,6 +131,47 @@ function BtnCount(btn,total,name){
     total.textContent=count
     typeAndCount[name] = count 
     console.log(typeAndCount)
+    ////////Display-Hide///////
+    if(count1 == 1){
+        lang.style.display = "none"
+        math.style.display = "block"
+    }
+    else if(count1 == 2){
+        math.style.display = "none"
+        visual.style.display = "block"
+    }
+    else if(count1 == 3){
+        visual.style.display = "none"
+        body.style.display = "block"
+    }
+    else if(count1 == 4){
+        body.style.display = "none"
+        nature.style.display = "block"
+    }
+    else if(count1 == 5){
+        nature.style.display = "none"
+        music.style.display = "block"
+    }
+    else if(count1 == 6){
+        music.style.display = "none"
+        social.style.display = "block"
+    }    
+    else if(count1 == 7){
+        social.style.display = "none"
+        person.style.display = "block"
+        
+    }
+    else if(count1 == 8){
+        person.style.display = "none"
+        ready.style.display = "block"
+        resultBtn.style.display = "block"
+        
+    }
+    if(count1 < 9){
+      count1++  
+    }
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     
 }
 ////////////////////
@@ -129,7 +216,7 @@ const typesList = [
         name1:"music",
         title:"الموهبة الموسيقية",
         mean:"القدرة على إدراك الموسيقي ، والاحساس باللحن ، والنقد الموسيقي",
-        work : "تالوة القرآن /الغناء / التلحين / التوزيع /",
+        work : "تلاوة القرآن /الغناء / التلحين / التوزيع /",
         para : ""
     },
     {
@@ -150,7 +237,6 @@ const typesList = [
 //////////////////////
 let totNum = 0
 let typeMain = ""
-const resultBtn = document.getElementById("result-btn")
 const result = document.getElementById("result")
 const resultPara = document.getElementById("result-para")
 const sub = document.getElementById("sub")
@@ -181,6 +267,9 @@ resultBtn.addEventListener("click",function(){
         }
 
     }
-})                                    
-
-
+    if(count1 == 9){
+        ready.style.display = "none"
+        typeres.style.display = "block"
+        
+    }
+})
