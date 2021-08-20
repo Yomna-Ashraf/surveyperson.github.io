@@ -90,7 +90,7 @@ function BtnCount(btn,total,name){
         if(btn[i].value == "1"){
             count+=1
         }
-        else if (rdBtnsPerson[i].value=="2"){
+        else if (btn[i].value=="2"){
             count+=2
         }
         else{
